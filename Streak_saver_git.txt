@@ -1,0 +1,6 @@
+Deleted the repository, and because of that, my streak broke. Use these git commands in PowerShell to push on the specific date.
+
+- git add .
+- $env:GIT_COMMITTER_DATE="2025-04-07 12:00:00"
+git commit --amend --no-edit --date "2025-04-07 12:00:00"
+- git push --force
